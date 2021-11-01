@@ -1,0 +1,79 @@
+.side-bar {
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+}
+
+#accordionSidebar {
+  /* position: absolute; */
+  position: fixed;
+  height: 100vh;
+  /* transition: all -200ms ease; */
+  /* transform: translateY(); */
+}
+
+.navi {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+}
+
+#font-style {
+  font-family: "Varela Round", sans-serif;
+}
+.gambar {
+  width: 160px;
+}
+
+.table {
+  vertical-align: middle;
+}
+
+#brand {
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+  color: #383437;
+  font-weight: bold;
+}
+
+#accordionSidebar {
+  position: relative;
+}
+
+#harga_modal::-webkit-outer-spin-button,
+#harga_modal::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+#harga_jual::-webkit-outer-spin-button,
+#harga_jual::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+.stok::-webkit-outer-spin-button,
+.stok::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  margin: 0;
+}
+
+.stok {
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#ukuran :nth-child(1) {
+  margin-left: 0px;
+}
+
+#ukuran :nth-child(6) {
+  margin-right: 0px;
+}
+/* #ukuran:nth-last-child() {
+  margin-right: 0px;
+} */

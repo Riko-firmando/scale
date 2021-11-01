@@ -1,0 +1,40 @@
+#email,
+#password {
+  border-radius: 20px;
+  padding-left: 43px;
+  /* padding-right: 45px; */
+  font-size: 15px;
+}
+
+#for_email,
+#for_password {
+  text-align: center;
+  padding-inline: 4px;
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  transition: all 150ms ease;
+  cursor: text;
+}
+
+#email:focus ~ #for_email,
+#email:not(:placeholder-shown) ~ #for_email,
+#password:focus ~ #for_password,
+#password:not(:placeholder-shown) ~ #for_password {
+  top: -13px;
+  left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(110, 109, 109);
+}
+
+#email ~ i,
+#password ~ i {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  font-size: 17px;
+  z-index: 1;
+}
