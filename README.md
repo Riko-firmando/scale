@@ -2,10 +2,10 @@
 
 
 ## link website
-[scale](https://tokoscale.000webhostapp.com/)
+https://tokoscale.000webhostapp.com/
 
-admin => username :  rikofrmndo@gmail.com , pass : 123
-user => username :  rikofrmndo27@gmail.com , pass : 123
+* admin => username :  rikofrmndo@gmail.com , pass : 123 
+* user => username :  rikofrmndo27@gmail.com , pass : 123
 
 ## What is CodeIgniter?
 
