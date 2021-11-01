@@ -1,11 +1,10 @@
-# CodeIgniter 4 Application Starter
-
-
 ## link website
 https://tokoscale.000webhostapp.com/
 
 * admin => username :  rikofrmndo@gmail.com , pass : 123 
 * user => username :  rikofrmndo27@gmail.com , pass : 123
+
+# CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
 
